@@ -1,0 +1,25 @@
+/* div{
+    background: white;
+} */
+.main{
+    display: flex;
+}
+.search{
+    display: flex;
+    margin-top: 1rem;
+    border-radius: 50px;
+    width: 80%;
+    height: 3rem;
+}
+
+.Darkmode{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    
+}
+.Darkmode label{
+    padding-left: 1rem;
+}
+button{
+    margin-top: 1rem;
+}
