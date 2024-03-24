@@ -13,8 +13,8 @@ import { BsSearch } from "react-icons/bs";
 const Nav = ({setSearchinp}) => {
   const { colorMode, toggleColorMode } = useColorMode()
   const handleSwitch=(e)=>{
-    console.log("hello")
-    console.log(e)
+    // console.log("hello")
+    // console.log(e)
    
   }
   return (

@@ -14,13 +14,13 @@ import {
 } from "@chakra-ui/react";
 
 const GernesGames = ({title, games, setGenresgameData}) => {
-  console.log(title)
+  // console.log(title)
   
   const getGames = games.filter((game) =>
   game.genres.some((genre) => genre.name===title)
 );
   
-  console.log(getGames)
+  // console.log(getGames)
   return (
     <>
     <Wrap>

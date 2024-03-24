@@ -17,7 +17,11 @@ const SignUp = () => {
     console.log(userData)
 
     axios.post("http://localhost:8080/signup",userData)
-    .then(res=>console.log(res.data))
+    .then(res=>{console.log(res.data)
+      if(res.status===200){
+        Navigate("/")
+     }
+    })
     .catch(e=> console.log(e))
     
   }

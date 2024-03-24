@@ -13,9 +13,9 @@ const Platform = ({ setGameData }) => {
 
     const Gamedata = data.results.find((p) => p.name === v);
     
-    console.log(Gamedata)
+    // console.log(Gamedata)
     const results = Gamedata.games.map((id) =>id.id);
-    console.log(results)
+    // console.log(results)
     setGameData(results)
     setselect(v);
   };

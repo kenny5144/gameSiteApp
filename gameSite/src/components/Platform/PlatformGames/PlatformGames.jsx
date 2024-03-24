@@ -16,8 +16,7 @@ const PlatformGames = ({ GameData, games }) => {
   const gamesPlatfrom = GameData
     ? games.filter((games) => GameData.includes(games.id))
     : "";
-  console.log(games);
-  console.log(gamesPlatfrom);
+
   return (
     <>
           <Wrap  gap={2} >

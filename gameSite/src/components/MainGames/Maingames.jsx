@@ -13,7 +13,7 @@ import {
   } from "@chakra-ui/react";
   
 const Maingames = ({data}) => {
-    console.log(data)
+    // console.log(data)
   return (
     <>
         <Wrap   gap={1} >

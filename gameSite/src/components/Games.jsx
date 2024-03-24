@@ -32,10 +32,10 @@ const Games = ({ title, GameData, setGameData, setSearchinp ,searchinp, settitle
       <div>an error has occured {isError}</div>
     )
   }
-  console.log(data) 
+  // console.log(data) 
   
   const games =data.results
-  console.log(games) 
+  // console.log(games) 
 
 
  

@@ -20,7 +20,7 @@ const Gernes = ({settitle, setGameData}) => {
   }
 
   const handleclick = (event) => {
-    console.log("hi" + event.target.innerHTML );
+    // console.log("hi" + event.target.innerHTML );
     settitle(event.target.innerHTML)
     setGameData(null)
   };
